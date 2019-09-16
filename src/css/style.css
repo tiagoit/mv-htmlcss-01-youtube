@@ -93,13 +93,16 @@ header .navbar .logo {
   padding: 4px 6px;
 }
 
-/* MAIN CONTENT */
+/* MAIN WRAPPER */
+.main-wrapper {
+  display: flex;
+}
 
+/* MAIN CONTENT */
 .main-content {
-  position: relative;
-  top: -5px;
-  margin-right: 10px;
   display: inline-block;
+  margin-top: 16px;
+  margin-right: 10px;
   width: 640px;
 }
 
@@ -132,10 +135,43 @@ header .navbar .logo {
 }
 
 /* SIDEBAR */
-
 .sidebar {
-  width: 340px;
   display: inline-block;
+  margin-top: 16px;
+  width: 340px;
   background-color: #fff;
-  margin-top: 10px;
+}
+
+.sidebar > h4 {
+  margin-left: 12px;
+}
+
+.thumb-section {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.thumb-section > img,
+.thumb-section > span {
+  width: 50%;
+}
+
+.thumb-section > .info-thumb {
+  padding-left: 4px;
+}
+
+.thumb-section > .info-thumb > title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.thumb-section > .info-thumb > .user,
+.thumb-section > .info-thumb > .views {
+  font-size: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  margin-top: 12px;
 }
