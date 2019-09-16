@@ -131,6 +131,22 @@ header .navbar .logo {
   padding-bottom: 0;
 }
 
+.actions {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+}
+
+.actions > span {
+  width: 100px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
 .desc {
   margin: 0;
   background-color: #fff;
@@ -187,7 +203,8 @@ footer {
   padding-bottom: 20px;
 }
 
-footer select, button {
+footer select,
+button {
   width: 150px;
   height: 30px;
   padding: 0 7px;
@@ -210,11 +227,13 @@ footer a:visited {
   color: inherit;
 }
 
-.second-line, .third-line {
+.second-line,
+.third-line {
   line-height: 24px;
 }
 
-.second-line a, .third-line a {
+.second-line a,
+.third-line a {
   padding-right: 10px;
 }
 .second-line {
@@ -227,5 +246,12 @@ footer a:visited {
   font-size: 12px;
 }
 
-
-
+display: inline-block;
+vertical-align: middle;
+background-image: url("https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
+background-color: transparent;
+width: 20px;
+height: 20px;
+margin-right: 6px;
+background-position: -267px -824px;
+background-repeat: no-repeat;
