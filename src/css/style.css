@@ -73,13 +73,12 @@ header .navbar .logo {
 }
 
 .main-content {
-  width: 70%;
+  width: 640px;
   margin-right: 10px;
   display: inline-block;
 }
 
 .video {
-  border: 1px blue solid;
   width: 640px;
   height: 360px;
 }
@@ -99,6 +98,6 @@ header .navbar .logo {
 }
 
 .sidebar {
-  width: 20%;
+  width: 340px;
   display: inline-block;
 }
