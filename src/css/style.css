@@ -184,7 +184,7 @@ footer {
 .first-line {
   display: flex;
   border-bottom: 1px solid #ccc;
-
+  padding-bottom: 20px;
 }
 
 footer select, button {
@@ -218,6 +218,7 @@ footer a:visited {
   padding-right: 10px;
 }
 .second-line {
+  padding-top: 20px;
   font-size: 14px;
   font-weight: 600;
 }
