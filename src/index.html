@@ -12,47 +12,117 @@
     <header>
       <div class="navbar">
         <span class="menu">
-          <img src="img/burger-menu.svg" alt="">
+          <img src="img/burger-menu.svg" alt="" />
         </span>
-        <span class="logo"><img src="img/youtube-logo.jpeg" alt=""></span>
-        <span class="search">
-          <input type="text" placeholder="Search">
+        <span class="logo"><img src="img/youtube-logo.jpeg" alt=""/></span>
+
+        <span class="float-right">
+          <span class="search">
+            <input type="text" placeholder="Search" />
+          </span>
+          <span class="upload"><img src="img/upload-arrow.svg"/></span>
+          <span class="signin"><button type="button">Sign In</button></span>
         </span>
-        <span class="upload" ><img src="img/upload-arrow.svg"></span>
-        <span class="signin"><button type="button">Sign In</button></span>
       </div>
     </header>
 
     <section class="main-content">
       <div class="video">
-        <iframe width="460" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="460"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="info">
-        <span class="video-title">Rick Astley - Never Gonna Give You Up (Video)</span>
-        <div id = "views-published">
+        <span class="video-title"
+          >Rick Astley - Never Gonna Give You Up (Video)</span
+        >
+        <div id="views-published">
           <span class="views">601,446,947</span>
-          <span class="published">Published on Oct 25, 2009</span> 
+          <span class="published">Published on Oct 25, 2009</span>
         </div>
       </div>
       <div class="desc">
         <p>
-            Lyrics:
-            Never gonna give you up
-            Never gonna let you down
-            Never gonna run around and desert you
-            Never gonna make you cry
-            Never gonna say goodbye
-            Never gonna tell a lie and hurt you
+          Lyrics: Never gonna give you up Never gonna let you down Never gonna
+          run around and desert you Never gonna make you cry Never gonna say
+          goodbye Never gonna tell a lie and hurt you
         </p>
       </div>
     </section>
 
     <section class="sidebar">
-
+      <div class="thumb-section">
+        <img src="./img/thumb-01.jpeg" alt="" srcset="" />
+        <span class="title">Rick Astley - Togheter Forever</span>
+        <span class="user">Rick Astley</span>
+        <span class="views">83M views</span>
+      </div>
+      <div class="thumb-section">
+        <img src="./img/thumb-02.jpeg" alt="" srcset="" />
+        <span class="title">Rick Astley - Never Gonna Give You Up</span>
+        <span class="user">Rick Astley</span>
+        <span class="views">52M views</span>
+      </div>
+      <div class="thumb-section">
+        <img src="./img/thumb-03.jpeg" alt="" srcset="" />
+        <span class="title">Rick Astley - Guardians of the Galaxy</span>
+        <span class="user">Rick Astley</span>
+        <span class="views">48M views</span>
+      </div>
+      <div class="thumb-section">
+        <img src="./img/thumb-04.jpeg" alt="" srcset="" />
+        <span class="title">Bee Gees - Staying Alive</span>
+        <span class="user">Rick Astley</span>
+        <span class="views">12M views</span>
+      </div>
     </section>
 
     <footer>
+      <div class="first-line">
+        <span class="f-logo"></span>
+        <select name="language" id="language">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="pt">Portuguese</option>
+          <option value="ko">Korean</option>
+        </select>
 
+        <select name="location" id="location">
+          <option value="usa">USA</option>
+          <option value="spain">Spain</option>
+          <option value="brazil">Brazil</option>
+          <option value="korea">Korea</option>
+        </select>
+
+        <select name="restrict-mode" id="restrict-mode">
+          <option value="on">On</option>
+          <option value="off">Off</option>
+        </select>
+
+        <button>History</button>
+        <button>Help</button>
+      </div>
+
+      <div class="second-line">
+        <a href="">About</a>
+        <a href="">Press</a>
+        <a href="">Copyright</a>
+        <a href="">Creators</a>
+        <a href="">Advertise</a>
+        <a href="">Developers</a>
+      </div>
+
+      <div class="third-line">
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <a href="">Policy & Safety</a>
+        <a href="">Test new features</a>
+      </div>
     </footer>
   </body>
 </html>

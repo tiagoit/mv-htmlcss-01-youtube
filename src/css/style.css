@@ -1,3 +1,27 @@
-.upload img, .menu img{
+body {
+  margin: 0;
+}
+
+header .navbar {
+  padding: 8px 16px;
+}
+
+header .navbar .logo {
+  margin-left: 16px;
+  position: relative;
+  top: 4px;
+}
+
+.upload img,
+.menu img {
   width: 20px;
+}
+
+.float-right {
+  float: right;
+  margin-top: 4px;
+}
+
+.float-right span {
+  margin: 0 12px;
 }
