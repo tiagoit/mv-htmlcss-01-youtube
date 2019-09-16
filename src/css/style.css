@@ -33,19 +33,32 @@ header .navbar .logo {
   opacity: .5;
 }
 
-.float-right {
-  float: right;
-  margin-top: 4px;
+.navbar {
+  display: flex;
 }
 
-.float-right span {
-  margin: 0 12px;
+.flex-right {
+  order: 1;
 }
 
+.flex-center {
+  order: 2;
+  flex-grow: 2;
+}
+
+.flex-left {
+  order: 3;
+}
+
+.search {
+  margin: 0 auto;
+  border: 1 solid red;
+}
 .search input{
   margin-left: 40px;
-  /* min-width: 700px; */
+  width: 551px;
   font-size: 16px;
+  
 }
 
 .search-button {
@@ -58,8 +71,6 @@ header .navbar .logo {
   background-image: url('.img/magnifying-glass.svg');
   border: rgb(216, 216, 216) .5px solid;
 } 
-
-
 
 .upload {
   position: relative;
@@ -82,6 +93,10 @@ header .navbar .logo {
   color: #fff;
   padding: 4px 6px;
 }
+
+
+
+
 
 /* MAIN CONTENT */
 
