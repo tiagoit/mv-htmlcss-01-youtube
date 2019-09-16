@@ -4,21 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Youtube</title>
+    <title>Rick Astley - Never Gonna Give You Up</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" />
   </head>
   <body>
-    <section class="header">
+    <header>
       <div class="navbar">
         <span class="menu">
-          <i class="fas fa-bars"></i>
+          <img src="img/burger-menu.svg" alt="">
         </span>
-        <span class="logo"></span>
-        <span class="search"></span>
-        <span class="upload"></span>
-        <span class="signin"></span>
+        <span class="logo"><img src="img/youtube-logo.jpeg" alt=""></span>
+        <span class="search">
+          <input type="text" placeholder="Search">
+        </span>
+        <span class="upload" ><img src="img/upload-arrow.svg"></span>
+        <span class="signin"><button type="button">Sign In</button></span>
+      </div>
+    </header>
+
+    <section class="main-content">
+      <div class="video">
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="info">
+        <span class="video-title">Rick Astley - Never Gonna Give You Up (Video)</span>
+        <div id = "views-published">
+          <span class="views">601,446,947</span>
+          <span class="published">Published on Oct 25, 2009</span> 
+        </div>
+      </div>
+      <div class="desc">
+        <p>
+            Lyrics:
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+        </p>
       </div>
     </section>
+
+    <section class="sidebar">
+
+    </section>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
