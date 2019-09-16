@@ -1,7 +1,7 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #eee;
 }
 /*  CONTENTS  */
@@ -30,7 +30,7 @@ header .navbar .logo {
 .upload img,
 .menu img {
   width: 15px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .navbar {
@@ -54,23 +54,22 @@ header .navbar .logo {
   margin: 0 auto;
   border: 1 solid red;
 }
-.search input{
+.search input {
   margin-left: 40px;
   width: 551px;
   font-size: 16px;
-  
 }
 
 .search-button {
   position: relative;
   top: -2px;
-  left:-3px;
+  left: -3px;
 
   padding: 4px 10px;
   background-color: #fff;
-  background-image: url('.img/magnifying-glass.svg');
-  border: rgb(216, 216, 216) .5px solid;
-} 
+  background-image: url(".img/magnifying-glass.svg");
+  border: rgb(216, 216, 216) 0.5px solid;
+}
 
 .upload {
   position: relative;
@@ -85,7 +84,7 @@ header .navbar .logo {
 }
 
 .signin button {
-  background-color:#167ac6;
+  background-color: #167ac6;
   border-radius: 1px;
   border: none;
   font-size: 12px;
@@ -93,10 +92,6 @@ header .navbar .logo {
   color: #fff;
   padding: 4px 6px;
 }
-
-
-
-
 
 /* MAIN CONTENT */
 
@@ -118,11 +113,20 @@ header .navbar .logo {
 
 .info {
   padding: 20px;
+  background-color: #fff;
+  margin-top: 16px;
 }
 
 .info .video-title {
   font-size: 20px;
   font-weight: bold;
+  padding-bottom: 0;
+}
+
+.desc {
+  margin: 0;
+  background-color: #fff;
+  padding: 16px;
 }
 
 /* SIDEBAR */
@@ -130,4 +134,5 @@ header .navbar .logo {
 .sidebar {
   width: 340px;
   display: inline-block;
+  background-color: #fff;
 }
