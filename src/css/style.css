@@ -7,7 +7,6 @@ body {
 /*  CONTENTS  */
 
 .content {
-  border: 1px red solid;
   width: 1024px;
   margin: 0 auto;
   font-size: 14px;
@@ -33,6 +32,10 @@ header .navbar .logo {
   opacity: 0.5;
 }
 
+.logo img {
+  width: 100px;
+}
+
 .navbar {
   display: flex;
 }
@@ -52,11 +55,10 @@ header .navbar .logo {
 
 .search {
   margin: 0 auto;
-  border: 1 solid red;
 }
 .search input {
   margin-left: 40px;
-  width: 551px;
+  width: 60%;
   font-size: 16px;
 }
 
@@ -96,6 +98,7 @@ header .navbar .logo {
 /* MAIN WRAPPER */
 .main-wrapper {
   display: flex;
+  justify-content: center;
 }
 
 /* MAIN CONTENT */
@@ -172,6 +175,56 @@ header .navbar .logo {
 
 /* FOOTER */
 footer {
+  width: auto;
   background-color: #fff;
   margin-top: 12px;
+  padding: 10px 20px;
 }
+
+.first-line {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+
+}
+
+footer select, button {
+  width: 150px;
+  height: 30px;
+  padding: 0 7px;
+  margin: 0 10px;
+  text-align: center;
+  border: 1px solid rgb(194, 194, 194);
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.f-logo img {
+  width: 100px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: inherit;
+}
+
+.second-line, .third-line {
+  line-height: 24px;
+}
+
+.second-line a, .third-line a {
+  padding-right: 10px;
+}
+.second-line {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.third-line {
+  font-size: 12px;
+}
+
+
+
