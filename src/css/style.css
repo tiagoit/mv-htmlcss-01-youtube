@@ -18,6 +18,7 @@ header .navbar .logo {
   top: 4px;
 }
 
+
 .upload img,
 .menu img {
   width: 15px;
@@ -34,7 +35,7 @@ header .navbar .logo {
 }
 
 .search input{
-  min-width: 700px;
+  /* min-width: 700px; */
   padding: 4px;
   font-size: 16px;
 }
@@ -65,15 +66,16 @@ header .navbar .logo {
 
 .content {
   border: 1px red solid;
-  width: 75%;
+  width: 1024px;
   margin: 0 auto;
-  display: flex;
   font-size: 14px;
+  display: block;
 }
 
 .main-content {
   width: 70%;
   margin-right: 10px;
+  display: inline-block;
 }
 
 .video {
@@ -97,5 +99,6 @@ header .navbar .logo {
 }
 
 .sidebar {
-  width: 30%;
+  width: 20%;
+  display: inline-block;
 }
