@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+}
+/*  CONTENTS  */
+
+.content {
+  border: 1px red solid;
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 14px;
+  display: block;
+}
+
+/*  HEADER AND NAVBAR  */
+
+header .navbar {
+  padding: 8px 16px;
+  background-color: #fff;
+}
+
+header .navbar .logo {
+  margin-left: 16px;
+  position: relative;
+  top: 4px;
+}
+
+.upload img,
+.menu img {
+  width: 15px;
+  opacity: .5;
+}
+
+.float-right {
+  float: right;
+  margin-top: 4px;
+}
+
+.float-right span {
+  margin: 0 12px;
+}
+
+.search input{
+  margin-left: 40px;
+  /* min-width: 700px; */
+  font-size: 16px;
+}
+
+.search-button {
+  position: relative;
+  top: -2px;
+  left:-3px;
+
+  padding: 4px 10px;
+  background-color: #fff;
+  background-image: url('.img/magnifying-glass.svg');
+  border: rgb(216, 216, 216) .5px solid;
+} 
+
+
+
+.upload {
+  position: relative;
+  top: 4px;
+}
+
+.menu {
+  position: relative;
+  top: -5px;
+  left: 4px;
+  margin: 0 auto;
+}
+
+.signin button {
+  background-color:#167ac6;
+  border-radius: 1px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 6px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  width: 640px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.video {
+  width: 640px;
+  height: 360px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info .video-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 340px;
+  display: inline-block;
+}
