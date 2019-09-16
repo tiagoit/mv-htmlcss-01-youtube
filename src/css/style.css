@@ -96,9 +96,11 @@ header .navbar .logo {
 /* MAIN CONTENT */
 
 .main-content {
-  width: 640px;
+  position: relative;
+  top: -5px;
   margin-right: 10px;
   display: inline-block;
+  width: 640px;
 }
 
 .video {
@@ -135,4 +137,5 @@ header .navbar .logo {
   width: 340px;
   display: inline-block;
   background-color: #fff;
+  margin-top: 10px;
 }
