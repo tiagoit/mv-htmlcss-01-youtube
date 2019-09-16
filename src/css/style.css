@@ -1,13 +1,12 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #eee;
 }
 /*  CONTENTS  */
 
 .content {
-  border: 1px red solid;
   width: 1024px;
   margin: 0 auto;
   font-size: 14px;
@@ -30,36 +29,49 @@ header .navbar .logo {
 .upload img,
 .menu img {
   width: 15px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.float-right {
-  float: right;
-  margin-top: 4px;
+.logo img {
+  width: 100px;
 }
 
-.float-right span {
-  margin: 0 12px;
+.navbar {
+  display: flex;
 }
 
-.search input{
+.flex-right {
+  order: 1;
+}
+
+.flex-center {
+  order: 2;
+  flex-grow: 2;
+}
+
+.flex-left {
+  order: 3;
+}
+
+.search {
+  margin: 0 auto;
+}
+.search input {
   margin-left: 40px;
-  /* min-width: 700px; */
+  width: 60%;
   font-size: 16px;
 }
 
 .search-button {
   position: relative;
   top: -2px;
-  left:-3px;
+  left: -3px;
 
   padding: 4px 10px;
   background-color: #fff;
-  background-image: url('.img/magnifying-glass.svg');
-  border: rgb(216, 216, 216) .5px solid;
-} 
-
-
+  background-image: url(".img/magnifying-glass.svg");
+  border: rgb(216, 216, 216) 0.5px solid;
+}
 
 .upload {
   position: relative;
@@ -74,7 +86,7 @@ header .navbar .logo {
 }
 
 .signin button {
-  background-color:#167ac6;
+  background-color: #167ac6;
   border-radius: 1px;
   border: none;
   font-size: 12px;
@@ -83,12 +95,18 @@ header .navbar .logo {
   padding: 4px 6px;
 }
 
-/* MAIN CONTENT */
+/* MAIN WRAPPER */
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
+/* MAIN CONTENT */
 .main-content {
-  width: 640px;
-  margin-right: 10px;
   display: inline-block;
+  margin-top: 16px;
+  margin-right: 10px;
+  width: 640px;
 }
 
 .video {
@@ -103,16 +121,111 @@ header .navbar .logo {
 
 .info {
   padding: 20px;
+  background-color: #fff;
+  margin-top: 16px;
 }
 
 .info .video-title {
   font-size: 20px;
   font-weight: bold;
+  padding-bottom: 0;
+}
+
+.desc {
+  margin: 0;
+  background-color: #fff;
+  padding: 16px;
 }
 
 /* SIDEBAR */
-
 .sidebar {
-  width: 340px;
   display: inline-block;
+  margin-top: 16px;
+  width: 340px;
+  background-color: #fff;
 }
+
+.sidebar > h4 {
+  margin-left: 12px;
+}
+
+.thumb-section {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.thumb-section > img,
+.thumb-section > span {
+  width: 50%;
+}
+
+.thumb-section > .info-thumb {
+  padding-left: 4px;
+}
+
+.thumb-section > .info-thumb > title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.thumb-section > .info-thumb > .user,
+.thumb-section > .info-thumb > .views {
+  font-size: 10px;
+}
+
+/* FOOTER */
+footer {
+  width: auto;
+  background-color: #fff;
+  margin-top: 12px;
+  padding: 10px 20px;
+}
+
+.first-line {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+footer select, button {
+  width: 150px;
+  height: 30px;
+  padding: 0 7px;
+  margin: 0 10px;
+  text-align: center;
+  border: 1px solid rgb(194, 194, 194);
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.f-logo img {
+  width: 100px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: inherit;
+}
+
+.second-line, .third-line {
+  line-height: 24px;
+}
+
+.second-line a, .third-line a {
+  padding-right: 10px;
+}
+.second-line {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.third-line {
+  font-size: 12px;
+}
+
+
+

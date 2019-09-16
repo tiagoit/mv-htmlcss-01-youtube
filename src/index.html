@@ -6,128 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rick Astley - Never Gonna Give You Up</title>
     <link rel="icon" href="./img/youtube-icon.ico" type="image/icon" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" />
   </head>
   <body>
-    
     <div class="content">
-    <header>
-      <div class="navbar">
-        <span class="menu">
-          <img src="./img/burger-menu.svg" alt="" />
-        </span>
-        <span class="logo"><img src="./img/youtube-logo.jpeg" alt=""/></span>
-        
-        <span class="float-right">
-          <span class="search">
-            <input type="text" placeholder="Search" />
-            <button type="button" class="search-button">Search</button>
-          </span>
-          <span class="upload"><img src="./img/upload-arrow.svg"/></span>
-          <span class="signin"><button type="button">Sign In</button></span>
-        </span>
-      </div>
-    </header>
-    
-    <section class="main-content">
-      <div class="video">
-        <iframe
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div class="info">
-        <span class="video-title"
-          >Rick Astley - Never Gonna Give You Up (Video)</span
-        >
-        <div id="views-published">
-          <span class="views">601,446,947</span>
-          <span class="published">Published on Oct 25, 2009</span>
+      <header>
+        <div class="navbar">
+          <div class="flex-right">
+            <span class="menu">
+              <img src="./img/burger-menu.svg" alt="" />
+            </span>
+            <span class="logo"
+              ><img src="./img/f-logo.png" alt=""
+            /></span>
+          </div>
+          <div class="flex-center">
+            <span class="search">
+              <input type="text" placeholder="Search" />
+              <button type="button" class="search-button">Search</button>
+            </span>
+          </div>
+          <div class="flex-left">
+            <span class="upload"><img src="./img/upload-arrow.svg"/></span>
+            <span class="signin"><button type="button">Sign In</button></span>
+          </div>
         </div>
-      </div>
-      <div class="desc">
-        <p>
-          Lyrics: Never gonna give you up Never gonna let you down Never gonna
-          run around and desert you Never gonna make you cry Never gonna say
-          goodbye Never gonna tell a lie and hurt you
-        </p>
-      </div>
-    </section>
+      </header>
 
-    <section class="sidebar">
-      <h4>Up next</h4>
-      <div class="thumb-section">
-        <img src="./img/thumb-01.jpeg" alt="" srcset="" />
-        <span class="title">Rick Astley - Togheter Forever</span>
-        <span class="user">Rick Astley</span>
-        <span class="views">83M views</span>
-      </div>
-      <div class="thumb-section">
-        <img src="./img/thumb-02.jpeg" alt="" srcset="" />
-        <span class="title">Rick Astley - Never Gonna Give You Up</span>
-        <span class="user">Rick Astley</span>
-        <span class="views">52M views</span>
-      </div>
-      <div class="thumb-section">
-        <img src="./img/thumb-03.jpeg" alt="" srcset="" />
-        <span class="title">Rick Astley - Guardians of the Galaxy</span>
-        <span class="user">Rick Astley</span>
-        <span class="views">48M views</span>
-      </div>
-      <div class="thumb-section">
-        <img src="./img/thumb-04.jpeg" alt="" srcset="" />
-        <span class="title">Bee Gees - Staying Alive</span>
-        <span class="user">Rick Astley</span>
-        <span class="views">12M views</span>
-      </div>
-    </section>
-  </div>
+      <div class="main-wrapper">
+        <section class="main-content">
+          <div class="video">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="info">
+            <span class="video-title"
+              >Rick Astley - Never Gonna Give You Up (Video)</span
+            >
+            <div id="views-published">
+              <span class="views">601,446,947</span>
+              <span class="published">Published on Oct 25, 2009</span>
+            </div>
+          </div>
+          <div class="desc">
+            <p>
+              Lyrics: Never gonna give you up Never gonna let you down Never
+              gonna run around and desert you Never gonna make you cry Never
+              gonna say goodbye Never gonna tell a lie and hurt you
+            </p>
+          </div>
+        </section>
 
-    <footer>
-      <div class="first-line">
-        <span class="f-logo"></span>
-        <select name="language" id="language">
-          <option value="en">English</option>
-          <option value="es">Spanish</option>
-          <option value="pt">Portuguese</option>
-          <option value="ko">Korean</option>
-        </select>
-
-        <select name="location" id="location">
-          <option value="usa">USA</option>
-          <option value="spain">Spain</option>
-          <option value="brazil">Brazil</option>
-          <option value="korea">Korea</option>
-        </select>
-
-        <select name="restrict-mode" id="restrict-mode">
-          <option value="on">On</option>
-          <option value="off">Off</option>
-        </select>
-
-        <button>History</button>
-        <button>Help</button>
-      </div>
-
-      <div class="second-line">
-        <a href="">About</a>
-        <a href="">Press</a>
-        <a href="">Copyright</a>
-        <a href="">Creators</a>
-        <a href="">Advertise</a>
-        <a href="">Developers</a>
+        <section class="sidebar">
+          <h4>Up next</h4>
+          <div class="thumb-section">
+            <img src="./img/thumb-01.jpeg" alt="" srcset="" />
+            <div class="info-thumb">
+              <div class="title">Rick Astley - Togheter Forever</div>
+              <div class="user">Rick Astley</div>
+              <div class="views">83M views</div>
+            </div>
+          </div>
+          <div class="thumb-section">
+            <img src="./img/thumb-02.jpeg" alt="" srcset="" />
+            <div class="info-thumb">
+              <div class="title">Rick Astley - Never Gonna Give You Up</div>
+              <div class="user">Rick Astley</div>
+              <div class="views">52M views</div>
+            </div>
+          </div>
+          <div class="thumb-section">
+            <img src="./img/thumb-03.jpeg" alt="" srcset="" />
+            <div class="info-thumb">
+              <div class="title">Rick Astley - Guardians of the Galaxy</div>
+              <div class="user">Rick Astley</div>
+              <div class="views">48M views</div>
+            </div>
+          </div>
+          <div class="thumb-section">
+            <img src="./img/thumb-04.jpeg" alt="" srcset="" />
+            <div class="info-thumb">
+              <div class="title">Bee Gees - Staying Alive</div>
+              <div class="user">Rick Astley</div>
+              <div class="views">12M views</div>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <div class="third-line">
-        <a href="">Terms</a>
-        <a href="">Privacy</a>
-        <a href="">Policy & Safety</a>
-        <a href="">Test new features</a>
-      </div>
-    </footer>
+      <footer>
+        <div class="first-line">
+          <span class="f-logo"><img src="./img/f-logo.png"></span>
+          <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ko">Korean</option>
+          </select>
+
+          <select name="location" id="location">
+            <option value="usa">USA</option>
+            <option value="spain">Spain</option>
+            <option value="brazil">Brazil</option>
+            <option value="korea">Korea</option>
+          </select>
+
+          <select name="restrict-mode" id="restrict-mode">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+          </select>
+
+          <button>History</button>
+          <button>Help</button>
+        </div>
+
+        <div class="second-line">
+          <a href="">About</a>
+          <a href="">Press</a>
+          <a href="">Copyright</a>
+          <a href="">Creators</a>
+          <a href="">Advertise</a>
+          <a href="">Developers</a>
+        </div>
+
+        <div class="third-line">
+          <a href="">Terms</a>
+          <a href="">Privacy</a>
+          <a href="">Policy & Safety</a>
+          <a href="">Test new features</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
