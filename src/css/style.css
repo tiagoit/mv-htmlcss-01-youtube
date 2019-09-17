@@ -109,6 +109,11 @@ header .navbar .logo {
   width: 640px;
 }
 
+.main-content h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
 .video {
   width: 640px;
   height: 360px;
@@ -124,12 +129,6 @@ header .navbar .logo {
   padding: 20px;
   background-color: #fff;
   margin-top: 16px;
-}
-
-.info .video-title {
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 0;
 }
 
 .user-info {
