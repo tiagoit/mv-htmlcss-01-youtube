@@ -138,6 +138,8 @@ header .navbar .logo {
   grid-template-rows: 20px;
   height: 50px;
   padding-top: 10px;
+
+
 }
 
 .user-name {
@@ -156,6 +158,13 @@ header .navbar .logo {
   color: #fff;
   background-color: red;
   border: none;
+}
+
+#views-published {
+  text-align: right;
+  font-size: 19px;
+  color: rgb(102, 102, 102);
+
 }
 
 .actions {
