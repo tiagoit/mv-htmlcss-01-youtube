@@ -132,15 +132,26 @@ header .navbar .logo {
   padding-bottom: 0;
 }
 
-.info-user {
-  display: flex;
+.user-info {
+  display: grid;
+  grid-template-columns: 60px;
+  grid-template-rows: 20px;
+  height: 50px;
+  padding-top: 10px;
+  /* border: 2px solid green; */
 }
 
 .user-name {
-  position: relative;
-  top: -15px;
+  grid-column-start: 2;
   font-weight: 700;
-  margin-left: 4px;
+  height: fit-content;
+  /* border: 1px solid red; */
+}
+
+.subscribe {
+  grid-column-start: 2;
+  
+  /* border: 1px solid blue; */
 }
 
 .actions {
