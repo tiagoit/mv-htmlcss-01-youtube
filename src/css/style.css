@@ -85,7 +85,7 @@ header .navbar .logo {
   margin: 0 auto;
 }
 
-.signin button {
+nav .signin button {
   background-color: #167ac6;
   border-radius: 1px;
   border: none;
@@ -234,8 +234,8 @@ footer {
   padding-bottom: 20px;
 }
 
-footer select,
-footer button {
+footer .first-line select,
+footer .first-line button {
   width: 150px;
   height: 30px;
   padding: 0 7px;
