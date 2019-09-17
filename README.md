@@ -4,14 +4,15 @@ This project is an HTML document that matches the appearance of a YouTube page f
 
 We used [this page](http://archive.fo/Bss88) as a source.
 
-###### Technology
+#### Technology
 
 HTML
+
 CSS
 
-#### Author
+### Author
 
----
+
 
 [Tiago Ferreira](https://github.com/ferreirati)
 
