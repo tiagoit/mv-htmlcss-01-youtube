@@ -1,6 +1,6 @@
 # Embedding Images and Video Project
 
-This project is an HTML document that matches the appearance of a YouTube page for Microverse.
+This project is an HTML document that matches the appearance of a YouTube page (a Microverse Project).
 
 We used [this page](http://archive.fo/Bss88) as a source.
 
