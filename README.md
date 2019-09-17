@@ -15,4 +15,3 @@ CSS
 Tiago Ferreira @ [ferreirati](https://github.com/ferreirati)
 
 Tiffany Arellano @ [yirano](https://github.com/yirano)
-# mv-02-htmlcss-mint
