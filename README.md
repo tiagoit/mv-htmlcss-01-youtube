@@ -13,7 +13,6 @@ CSS
 ### Author
 
 
+Tiago Ferreira @ [ferreirati](https://github.com/ferreirati)
 
-[Tiago Ferreira](https://github.com/ferreirati)
-
-[Tiffany Arellano](https://github.com/yirano)
+Tiffany Arellano @ [yirano](https://github.com/yirano)
