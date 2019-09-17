@@ -1,5 +1,4 @@
 # Microverse Embedding Images and Video Project
-===
 
 This project is an HTML document that matches the appearance of a YouTube page for Microverse.
 
@@ -12,7 +11,6 @@ HTML
 CSS
 
 ### Author
-===
 
 Tiago Ferreira @ [ferreirati](https://github.com/ferreirati)
 
