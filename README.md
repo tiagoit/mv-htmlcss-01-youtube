@@ -1,4 +1,4 @@
-# Microverse Embedding Images and Video Project
+# Embedding Images and Video Project
 
 This project is an HTML document that matches the appearance of a YouTube page for Microverse.
 
