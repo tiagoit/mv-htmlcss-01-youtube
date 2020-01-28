@@ -12,10 +12,10 @@ This project can be found in https://github.com/tiagoit/mv-htmlcss-01-youtube
 
 ## 💻 Serve it on localhost
   - Clone the repository
-  - Run your favorite Webserver pointing to `/src` folder
+  - Run your favorite webserver pointing to `/src` folder
 
 ## 🤖 Contributors
-Tiago Ferreira @ [ferreirati](https://github.com/tiagoit)
+Tiago Ferreira @ [tiagoit](https://github.com/tiagoit)
 Tiffany Arellano @ [yirano](https://github.com/yirano)
 
 ## 🙋‍♂ Show your support
