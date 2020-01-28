@@ -1,17 +1,25 @@
-# Embedding Images and Video Project
+# 📃 Microverse Assignment: Clone of Youtube website
+This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
-This project is an HTML document that matches the appearance of a YouTube page (a Microverse Project).
+## 📡 Technologies used
+- HTML
+- CSS
 
-We used [this page](http://archive.fo/Bss88) as a source.
+## 🚀 The project
+This project can be found in https://github.com/tiagoit/mv-htmlcss-01-youtube
 
-#### Technology
+## ✨ [live version](https://tiagoit.github.io/mv-htmlcss-01-youtube/src/)
 
-HTML
+## 💻 Serve it on localhost
+  - Clone the repository
+  - Run your favorite Webserver pointing to `/src` folder
 
-CSS
-
-### Author
-
-Tiago Ferreira @ [ferreirati](https://github.com/ferreirati)
-
+## 🤖 Contributors
+Tiago Ferreira @ [ferreirati](https://github.com/tiagoit)
 Tiffany Arellano @ [yirano](https://github.com/yirano)
+
+## 🙋‍♂ Show your support
+Give a ⭐️ if you like this project!
+
+## 📝 License
+This project is [MIT](https://github.com/tiagoit/mv-htmlcss-01-youtube/license.txt) licensed.
