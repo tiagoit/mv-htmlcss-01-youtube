@@ -23,3 +23,10 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 This project is [MIT](https://github.com/tiagoit/mv-htmlcss-01-youtube/license.txt) licensed.
+
+## 📞 Contact
+Feel free to connect with me:
+- LinkedIn: (linkedin.com/in/tiagoit-dev)[linkedin.com/in/tiagoit-dev].
+- Email: <tiagoitferreira@gmail.com>
+- Phone: [+55 31 98789 9961](tel:5531987899961)
+
